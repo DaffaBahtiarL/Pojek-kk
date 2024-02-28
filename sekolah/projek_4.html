@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            let x = prompt("Masukan umur (0-100) dalam 1 tahun")
+            if(x>=60){
+                y = "Lansia";
+            }else if(x>=18){
+                y ="Dewasa";
+            }else if(x>=13){
+                y = "Remaja";
+            }else if(x>=6){
+               y = "Bocil";
+            }else if(x<=5){
+                y ="Balita";
+            }else{
+                y="salah";
+            }
+            document.write("Umur "+x+" = "+y);
+    </script>
+</body>
+</html>

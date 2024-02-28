@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          let x = prompt("Masukan berat badan (dalam kg)")
+            if(x>=90){
+                y = "obesitas";
+            }else if(x>=81){
+                y ="Gemuk";
+            }else if(x>=70){
+                y = "normal";
+            }else if(x>=60){
+               y = "kurus sedang";
+            }else if(x<=59){
+                y ="Sangat kurus";
+            }else{
+                y="salah";
+            }
+            document.write("Berat "+x+" = "+y);
+    </script>
+</body>
+</html>
